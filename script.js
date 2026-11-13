@@ -1,8 +1,9 @@
+
 function init() {
 
     const button = document.getElementById("entrybutton");
     const input = document.getElementById("entryinput");
-    const headline = document.querySelector("h2");
+    const headline = document.getElementById("textoutput");
 
     button.addEventListener("click", function() {
 
@@ -16,4 +17,4 @@ function init() {
 
 }
 
-window.addEventListener('load', init);
+window.addEventListener("load", init);
